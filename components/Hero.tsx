@@ -52,7 +52,7 @@ const Hero = () => {
         </div>
       </div>
       <div className="relative flex flex-1 items-start">
-        <div className="relative z-20 w-[268px] flex-col gap-8 rounded-3xl bg-green-90 px-7 py-8">
+        <div className="relative z-20 w-[268px] flex flex-col gap-8 rounded-3xl bg-green-90 px-7 py-8">
           <div className="flex flex-col">
             <div className="flexBetween">
               <p className="text-gray-20 regular-16">Location</p>
@@ -60,22 +60,15 @@ const Hero = () => {
             </div>
             <p className="text-white bold-20">Aguas Calientes</p>
           </div>
+
           <div className="flexBetween">
             <div className="flex flex-col">
               <p className="text-gray-20 regular-16">Distance</p>
               <p className="text-white bold-20">173.28 km</p>
             </div>
-          </div>
-          <div className="flexBetween">
-            <div className="flex flex-col">
-              <p className="text-gray-20 regular-16">Distance</p>
-              <p className="text-white bold-20">173.28 km</p>
-            </div>
-          </div>
-          <div className="flexBetween">
             <div className="flex flex-col">
               <p className="text-gray-20 regular-16">Elevation</p>
-              <p className="text-white bold-20">2 km</p>
+              <p className="text-white bold-20">2.040 km</p>
             </div>
           </div>
         </div>
