@@ -7,7 +7,12 @@ const Navbar = () => {
   return (
     <nav className="flexBetween max-container padding-container relative z-30 py-5">
       <Link href={"/"}>
-        <Image src={"/hilink-logo.svg"} alt="logo" width={74} height={29} />
+        <Image
+          src={"/travel-app/hilink-logo.svg"}
+          alt="logo"
+          width={74}
+          height={29}
+        />
       </Link>
       <ul className="hidden lg:flex h-full gap-12">
         {NAV_LINKS.map((link) => (
@@ -24,12 +29,12 @@ const Navbar = () => {
         <Button
           type="button"
           title="Login"
-          icon="/user.svg"
+          icon="/travel-app/user.svg"
           variant="btn_dark_green"
         />
       </div>
       <Image
-        src={"/menu.svg"}
+        src={"/travel-app/menu.svg"}
         alt="menu"
         width={32}
         height={32}

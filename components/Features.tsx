@@ -8,7 +8,7 @@ const Features = () => {
       <div className="max-container padding-container relative w-full justify-end flex">
         <div className="flex flex-1 lg:min-h-[900px]">
           <Image
-            src={"/phone.png"}
+            src={"/travel-app/phone.png"}
             width={440}
             height={1000}
             className="feature-phone"
@@ -18,7 +18,7 @@ const Features = () => {
         <div className="z-20 flex w-full flex-col lg:w-[60%]">
           <div className="relative">
             <Image
-              src={"/camp.svg"}
+              src={"/travel-app/camp.svg"}
               width={50}
               height={50}
               alt="camp"

@@ -8,7 +8,7 @@ const Hero = () => {
       <div className="hero-map" />
       <div className="relative z-20 flex flex-1 flex-col xl:w-1/2">
         <Image
-          src={"/camp.svg"}
+          src={"/travel-app/camp.svg"}
           alt="camp"
           width={50}
           height={50}
@@ -26,7 +26,7 @@ const Hero = () => {
               .fill(1)
               .map((_, index) => (
                 <Image
-                  src={"/star.svg"}
+                  src={"/travel-app/star.svg"}
                   key={index}
                   alt="star"
                   width={24}
@@ -46,7 +46,7 @@ const Hero = () => {
           <Button
             type="button"
             title="How we work?"
-            icon="/play.svg"
+            icon="/travel-app/play.svg"
             variant="btn_white_text"
           />
         </div>
@@ -56,7 +56,12 @@ const Hero = () => {
           <div className="flex flex-col">
             <div className="flexBetween">
               <p className="text-gray-20 regular-16">Location</p>
-              <Image src={"/close.svg"} alt="close" width={24} height={24} />
+              <Image
+                src={"/travel-app/close.svg"}
+                alt="close"
+                width={24}
+                height={24}
+              />
             </div>
             <p className="text-white bold-20">Aguas Calientes</p>
           </div>

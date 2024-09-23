@@ -17,21 +17,26 @@ const GetApp = () => {
             <Button
               type="button"
               title="App Store"
-              icon="/apple.svg"
+              icon="/travel-app/apple.svg"
               variant="btn_white_text"
               full
             />
             <Button
               type="button"
               title="Play Store"
-              icon="/android.svg"
+              icon="/travel-app/android.svg"
               variant="btn_dark_green_outline"
               full
             />
           </div>
         </div>
         <div className="flex flex-1 items-center justify-end">
-          <Image src={"/phones.png"} alt={"phones"} width={550} height={870} />
+          <Image
+            src={"/travel-app/phones.png"}
+            alt={"phones"}
+            width={550}
+            height={870}
+          />
         </div>
       </div>
     </section>
