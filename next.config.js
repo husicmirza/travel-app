@@ -1,4 +1,8 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {
+  basePath: "/travel-app",
+  output: "export",
+  reactStrictMode: true,
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
